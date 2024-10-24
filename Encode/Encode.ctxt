@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Encode
+comment0.text=\r\n\ The\ Encode\ class\ will\ take\ a\ String\ and\ encode\ it\ into\ hexdecimal\r\n\ values.\ \r\n\ \r\n\r\n\ @author\ Frank\ Mina\r\n\ @version\ 1.0\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=s
+comment2.target=java.lang.String\ prepCipher(java.lang.String)
+comment2.text=\r\n\ Method\ prepCipher\ prepares\ the\ text\ to\ be\ encoded\ by\ removing\r\n\ all\ spaces\ and\ punctuation.\ \r\n\r\n\ @param\ s\ is\ a\ String\ parameter(the\ plaintext)\r\n\ @return\ returns\ the\ plaintext\ without\ spaces\ or\ punctuation\r\n
+comment3.params=s\ a
+comment3.target=java.util.ArrayList\ applyShift(java.lang.String,\ int)
+comment3.text=\r\n\ Method\ applyShift\ takes\ a\ string\ and\ an\ int\ parameter,\ and\ will\ \r\n\ cycle\ through\ the\ string\ applying\ the\ shift\ to\ each\ and\ every\r\n\ letter's\ ordinal\ value\r\n\ The\ method\ will\ then\ add\ all\ of\ these\ numbers\ to\ an\ arrayList\r\n\ named\ output.\ \r\n\r\n\ @param\ s\ a\ String\ parameter\ to\ be\ encrypted\r\n\ @param\ a\ the\ value\ of\ the\ shift,\ or\ the\ key\r\n\ @return\ an\ arrayList\ of\ integers.\ \r\n
+numComments=4
